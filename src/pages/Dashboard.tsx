@@ -1,5 +1,6 @@
 
 import { ThemeToggle } from "@/components/ThemeToggle";
+import BillScheduleForm from "@/components/BillScheduleForm";
 
 const Dashboard = () => {
   return (
@@ -17,8 +18,8 @@ const Dashboard = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="p-6 rounded-lg border bg-card text-card-foreground shadow-sm">
-            <h2 className="text-xl font-semibold mb-4">Upcoming Bills</h2>
-            <p className="text-muted-foreground">No upcoming bills</p>
+            <h2 className="text-xl font-semibold mb-4">Schedule Payment</h2>
+            <BillScheduleForm />
           </div>
           
           <div className="p-6 rounded-lg border bg-card text-card-foreground shadow-sm">
